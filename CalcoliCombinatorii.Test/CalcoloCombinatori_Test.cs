@@ -10,11 +10,11 @@ namespace CalcoliCombinatorii.Test
         [DataRow(5,120)]
         [DataRow(0, 1)]
         [DataRow(1, 1)]
-        [DataRow(10, 362800)]
+        [DataRow(10, 3628800)]
         [DataRow(20, 2432902008176640000)]
-        public void TestFattoriale(int num, int fattorialeaspettato ) 
+        public void TestFattoriale(int num, long fattorialeaspettato ) 
         {
-           int fattoriale =  EquazioniLibrary.EquazioniTest.Fattoriale(num);
+           long fattoriale =  EquazioniLibrary.EquazioniTest.Fattoriale(num);
            Assert.AreEqual(fattorialeaspettato, fattoriale);
         }
     }
