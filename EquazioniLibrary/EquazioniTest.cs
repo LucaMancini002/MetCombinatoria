@@ -9,7 +9,7 @@ namespace EquazioniLibrary
     public static class EquazioniTest
     {
         public static int Fattoriale(int num)
-        {
+        { 
             int fattoriale=1;
             
             for(int i = num;i>0;i--)
